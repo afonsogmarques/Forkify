@@ -11,12 +11,6 @@ import paginationView from './views/paginationView.js';
 import bookmarksView from './views/bookmarksView.js';
 import addRecipeView from './views/addRecipeView.js';
 
-// https://forkify-api.herokuapp.com/v2
-
-// if (module.hot) {
-//   module.hot.accept();
-// }
-
 ///////////////////////////////////////
 const controlRecipes = async function () {
   try {
@@ -160,6 +154,7 @@ const init = async function () {
   paginationView.addHandlerClick(controlPagination);
   addRecipeView.addHandlerUpload(controlUpload);
   sortView.addHandlerSort(controlSort);
+  console.log('Hello');
 };
 
 init();
