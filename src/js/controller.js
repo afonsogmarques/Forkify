@@ -154,7 +154,6 @@ const init = async function () {
   paginationView.addHandlerClick(controlPagination);
   addRecipeView.addHandlerUpload(controlUpload);
   sortView.addHandlerSort(controlSort);
-  console.log('Hello');
 };
 
 init();
